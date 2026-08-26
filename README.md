@@ -1,19 +1,42 @@
-<h1>Easy Shopping</h1>
-<br>
-<br>
-<h2>Um Projeto que eu aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
-<br>
-<h2>Tecnologias utilizadas</h2>
-<br>
-    <p>- HTML</p>
-    <p>- CSS</p>
-<br>
-<p>Neste projeto aprendi a fazer responsividade para versão desktop, mobile e tablet</p>
-<br>
-<p>Tambem usei o famoso figma para fazer o design do site e tirar as metricas para centralizas as imagens e letras </p>
-<h2>Versão desktop</h2>
-<img src="https://github.com/GuilhermeOliveira337/easy-shopping/blob/master/assets/desktop.png?raw=true" />
-<br>
-<br>
-<h2>Versão mobile</h2>
-<img src="https://github.com/GuilhermeOliveira337/easy-shopping/blob/master/assets/mobile.png?raw=true" />
+# Easy Shopping
+
+Landing page de e-commerce construída a partir de um layout do Figma, com o objetivo de acertar a responsividade em três tamanhos de tela: desktop, tablet e celular.
+
+**[▶ Ver no ar](https://guilhermeoliveira337.github.io/easy-shopping/)**
+
+![Versão desktop](./assets/desktop.png)
+
+## O foco: responsividade
+
+O projeto é curto de propósito. O exercício não era quantidade de seções, e sim fazer **o mesmo HTML** se comportar corretamente em três larguras diferentes, sem duplicar marcação e sem quebrar o alinhamento em nenhuma delas.
+
+- **Desktop** — conteúdo e imagem lado a lado
+- **Tablet** — proporções ajustadas, mesma estrutura
+- **Celular** — empilhamento vertical, tipografia e espaçamentos redimensionados
+
+<img src="./assets/mobile.png" alt="Versão mobile" width="280">
+
+## O que aprendi
+
+Foi aqui que passei a tirar as medidas direto do Figma em vez de estimar no olho. Centralização, espaçamento e proporção deixaram de ser tentativa e erro e viraram número — e o resultado ficou visivelmente mais próximo do layout original.
+
+Também foi o projeto em que entendi media query como ponto de quebra escolhido pelo conteúdo, não como três larguras decoradas.
+
+## Tecnologias
+
+`HTML5` · `CSS3 (Flexbox, Media Queries)` · `Figma`
+
+## Rodando localmente
+
+```bash
+git clone https://github.com/GuilhermeOliveira337/easy-shopping.git
+cd easy-shopping
+```
+
+Abra o `index.html` no navegador.
+
+> Projeto desenvolvido durante a formação Full Stack do [DevClub](https://rodolfomori.com.br/devclub).
+
+---
+
+Desenvolvido por **Guilherme Oliveira** · [LinkedIn](https://www.linkedin.com/in/guilherme-oliveira-frontend)
